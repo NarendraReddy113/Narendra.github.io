@@ -216,10 +216,52 @@ section:target {
     text-align: justify;
     /* margin-left: 45px; */
 }
-.timeline-box:nth-child(2n) {
+.timeline-box:nth-child(2n){
     left: 53%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
 }
+.timeline-box:nth-child(2n+1) {
+    /* left: 53%; */
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
 
+}
+.timeline-box:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: -8%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: gray;
+}
+.timeline-box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -9%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: gray;
+}
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed #0096fa6b;
+    top: 10%;
+    left: 49.74%;
+}
+.timeline-traveller{
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+}
 /* education */
 .education {
     position: relative;
@@ -239,6 +281,39 @@ section:target {
 .education-box:nth-child(2n) {
     left: 53%;
     /* text-align: left; */
+}
+.education-box:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: -12%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: gray;
+}
+.education-box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: -9%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: gray;
+}
+.education-timeline{
+    position: absolute;
+    height: 65%;
+    width: 0;
+    border: 3px dashed #0096fa6b;
+    top: 7%;
+    left: 49.74%;
+}
+.education-traveller{
+    position: sticky;
+    top: 20%;
+    transform: rotate(90deg);
 }
 /* Portfolio Section */
 
