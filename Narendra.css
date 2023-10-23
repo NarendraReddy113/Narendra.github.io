@@ -280,13 +280,22 @@ section:target {
 }
 .education-box:nth-child(2n) {
     left: 53%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
     /* text-align: left; */
+}
+.education-box:nth-child(2n+1) {
+    /* left: 53%; */
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
 }
 .education-box:nth-child(2n+1)::after{
     content: '';
     position: absolute;
-    top: 10%;
-    right: -12%;
+    top: 15%;
+    right: -8%;
     border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
@@ -295,7 +304,7 @@ section:target {
 .education-box:nth-child(2n)::after{
     content: '';
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: -9%;
     border-radius: 50%;
     width: 0.5rem;
