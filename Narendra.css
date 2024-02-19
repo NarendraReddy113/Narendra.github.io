@@ -254,12 +254,12 @@ section:target {
     height: 75%;
     width: 0;
     border: 3px dashed #0096fa6b;
-    top: 10%;
-    left: 49.74%;
+    top: 9.9%;
+    left: 50%;
 }
 .timeline-traveller{
     position: sticky;
-    top: 25%;
+    top: 5%;
     transform: rotate(90deg);
 }
 /* education */
@@ -317,11 +317,11 @@ section:target {
     width: 0;
     border: 3px dashed #0096fa6b;
     top: 7%;
-    left: 49.74%;
+    left: 50.1%;
 }
 .education-traveller{
     position: sticky;
-    top: 20%;
+    top: 1%;
     transform: rotate(90deg);
 }
 /* Portfolio Section */
@@ -342,7 +342,7 @@ section:target {
 
 
 
-    background-color: #0abcf9;
+    background-color: #3bc5f4;
     background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
     /*background-image: linear-gradient(50deg,#2857a4 0%, #5378b1 74%);*/
     /*background-image: linear-gradient(170deg,#2857a4 0%, #8496b2 74%);*/
